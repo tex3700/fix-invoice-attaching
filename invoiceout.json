@@ -1,0 +1,125 @@
+{
+  "meta" : {
+    "href" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/15fbd799-1138-11f0-0a80-110800093fc3",
+    "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/metadata",
+    "type" : "invoiceout",
+    "mediaType" : "application/json",
+    "uuidHref" : "https://online.moysklad.ru/app/#invoiceout/edit?id=15fbd799-1138-11f0-0a80-110800093fc3"
+  },
+  "id" : "15fbd799-1138-11f0-0a80-110800093fc3",
+  "accountId" : "9f893371-58fe-11e2-6274-001b21d91495",
+  "owner" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/employee/4b682f2c-1745-11ef-0a80-04d100095622",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+      "type" : "employee",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#employee/edit?id=4b682f2c-1745-11ef-0a80-04d100095622"
+    }
+  },
+  "shared" : true,
+  "group" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/group/7e9ef148-5906-11e2-f608-001b21d91495",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/group/metadata",
+      "type" : "group",
+      "mediaType" : "application/json"
+    }
+  },
+  "updated" : "2025-04-04 12:35:13.314",
+  "name" : "3182",
+  "externalCode" : "pYV-A75ahUvKJlK8A3NlZ1",
+  "moment" : "2025-04-04 12:34:00.000",
+  "applicable" : true,
+  "rate" : {
+    "currency" : {
+      "meta" : {
+        "href" : "https://api.moysklad.ru/api/remap/1.2/entity/currency/879d9fba-cb3e-4ba6-a570-a9ed4ccf0b68",
+        "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/currency/metadata",
+        "type" : "currency",
+        "mediaType" : "application/json",
+        "uuidHref" : "https://online.moysklad.ru/app/#currency/edit?id=879d9fba-cb3e-4ba6-a570-a9ed4ccf0b68"
+      }
+    }
+  },
+  "sum" : 9512400.0,
+  "store" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/store/8ebaa05c-59db-11ed-0a80-0f4b0010b857",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/store/metadata",
+      "type" : "store",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#warehouse/edit?id=8ebaa05c-59db-11ed-0a80-0f4b0010b857"
+    }
+  },
+  "agent" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/897a0fc2-1137-11f0-0a80-06fc000a0893",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/metadata",
+      "type" : "counterparty",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#company/edit?id=897a0fc2-1137-11f0-0a80-06fc000a0893"
+    }
+  },
+  "organization" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/3ae89ea7-1bdb-11e4-8815-002590a28eca",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/metadata",
+      "type" : "organization",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#mycompany/edit?id=3ae89ea7-1bdb-11e4-8815-002590a28eca"
+    }
+  },
+  "organizationAccount" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/3ae89ea7-1bdb-11e4-8815-002590a28eca/accounts/3ae8a289-1bdb-11e4-3259-002590a28eca",
+      "type" : "account",
+      "mediaType" : "application/json"
+    }
+  },
+  "state" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/metadata/states/18967858-d413-11ef-0a80-16c8001b51d3",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/metadata",
+      "type" : "state",
+      "mediaType" : "application/json"
+    }
+  },
+  "created" : "2025-04-04 12:35:03.315",
+  "printed" : true,
+  "published" : false,
+  "files" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/15fbd799-1138-11f0-0a80-110800093fc3/files",
+      "type" : "files",
+      "mediaType" : "application/json",
+      "size" : 0,
+      "limit" : 1000,
+      "offset" : 0
+    }
+  },
+  "positions" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/invoiceout/15fbd799-1138-11f0-0a80-110800093fc3/positions",
+      "type" : "invoiceposition",
+      "mediaType" : "application/json",
+      "size" : 2,
+      "limit" : 1000,
+      "offset" : 0
+    }
+  },
+  "vatEnabled" : true,
+  "vatIncluded" : true,
+  "vatSum" : 1585400.0,
+  "payedSum" : 0.0,
+  "shippedSum" : 0.0,
+  "customerOrder" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/118ec630-1138-11f0-0a80-14640009eaa0",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata",
+      "type" : "customerorder",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#customerorder/edit?id=118ec630-1138-11f0-0a80-14640009eaa0"
+    }
+  }
+}

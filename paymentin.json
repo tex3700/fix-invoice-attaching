@@ -1,0 +1,175 @@
+{
+  "meta" : {
+    "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/46fe6540-0a2d-11f0-0a80-15c300188b75",
+    "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata",
+    "type" : "paymentin",
+    "mediaType" : "application/json",
+    "uuidHref" : "https://online.moysklad.ru/app/#paymentin/edit?id=46fe6540-0a2d-11f0-0a80-15c300188b75"
+  },
+  "id" : "46fe6540-0a2d-11f0-0a80-15c300188b75",
+  "accountId" : "9f893371-58fe-11e2-6274-001b21d91495",
+  "owner" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/employee/454c44a1-70bc-11e5-90a2-8ecb002a25ac",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+      "type" : "employee",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#employee/edit?id=454c44a1-70bc-11e5-90a2-8ecb002a25ac"
+    }
+  },
+  "shared" : false,
+  "group" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/group/09f7361f-d269-11e4-90a2-8ecb0005bfa0",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/group/metadata",
+      "type" : "group",
+      "mediaType" : "application/json"
+    }
+  },
+  "updated" : "2025-03-27 07:27:03.146",
+  "name" : "01940",
+  "externalCode" : "S--v0Sxsjv68nBATAHthd1",
+  "moment" : "2025-03-26 13:18:00.000",
+  "applicable" : true,
+  "rate" : {
+    "currency" : {
+      "meta" : {
+        "href" : "https://api.moysklad.ru/api/remap/1.2/entity/currency/879d9fba-cb3e-4ba6-a570-a9ed4ccf0b68",
+        "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/currency/metadata",
+        "type" : "currency",
+        "mediaType" : "application/json",
+        "uuidHref" : "https://online.moysklad.ru/app/#currency/edit?id=879d9fba-cb3e-4ba6-a570-a9ed4ccf0b68"
+      }
+    }
+  },
+  "sum" : 24292500,
+  "agent" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/1d3f0231-d598-11ea-0a80-0084003632c8",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/metadata",
+      "type" : "counterparty",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#company/edit?id=1d3f0231-d598-11ea-0a80-0084003632c8"
+    }
+  },
+  "organization" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/3ae89ea7-1bdb-11e4-8815-002590a28eca",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/metadata",
+      "type" : "organization",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#mycompany/edit?id=3ae89ea7-1bdb-11e4-8815-002590a28eca"
+    }
+  },
+  "agentAccount" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/1d3f0231-d598-11ea-0a80-0084003632c8/accounts/1d3f0a78-d598-11ea-0a80-0084003632c9",
+      "type" : "account",
+      "mediaType" : "application/json"
+    }
+  },
+  "organizationAccount" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/organization/3ae89ea7-1bdb-11e4-8815-002590a28eca/accounts/3ae8a289-1bdb-11e4-3259-002590a28eca",
+      "type" : "account",
+      "mediaType" : "application/json"
+    }
+  },
+  "attributes" : [ {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/d066564c-99aa-11ee-0a80-0b5c001ec6cd",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "d066564c-99aa-11ee-0a80-0b5c001ec6cd",
+    "name" : "Создано интеграцией Финтабло",
+    "type" : "boolean",
+    "value" : false
+  }, {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/d16a4156-99aa-11ee-0a80-04e0001dc191",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "d16a4156-99aa-11ee-0a80-04e0001dc191",
+    "name" : "Статья дохода",
+    "type" : "customentity",
+    "value" : {
+      "meta" : {
+        "href" : "https://api.moysklad.ru/api/remap/1.2/entity/customentity/d1133b4d-99aa-11ee-0a80-1588001e358b/d14234bd-99aa-11ee-0a80-0de8001efa9f",
+        "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/context/companysettings/metadata/customEntities/d1133b4d-99aa-11ee-0a80-1588001e358b",
+        "type" : "customentity",
+        "mediaType" : "application/json",
+        "uuidHref" : "https://online.moysklad.ru/app/#custom_d1133b4d-99aa-11ee-0a80-1588001e358b/edit?id=d14234bd-99aa-11ee-0a80-0de8001efa9f"
+      },
+      "name" : "Продажа товаров и услуг"
+    }
+  }, {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/d2453443-99aa-11ee-0a80-03a1001f2510",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "d2453443-99aa-11ee-0a80-03a1001f2510",
+    "name" : "Перемещение",
+    "type" : "boolean",
+    "value" : false
+  }, {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/18bd22ce-d413-11ef-0a80-03bc001c0cc6",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "18bd22ce-d413-11ef-0a80-03bc001c0cc6",
+    "name" : "Привязано к счету",
+    "type" : "boolean",
+    "value" : true
+  }, {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/19667266-d413-11ef-0a80-0687001be37a",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "19667266-d413-11ef-0a80-0687001be37a",
+    "name" : "Создано интеграцией Альфа-банк",
+    "type" : "boolean",
+    "value" : true
+  }, {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/metadata/attributes/19718d5b-d413-11ef-0a80-01cd001b1cd6",
+      "type" : "attributemetadata",
+      "mediaType" : "application/json"
+    },
+    "id" : "19718d5b-d413-11ef-0a80-01cd001b1cd6",
+    "name" : "ID операции Альфа-банк",
+    "type" : "string",
+    "value" : "1250326MOY3#DS4062206"
+  } ],
+  "created" : "2025-03-26 13:30:02.925",
+  "printed" : false,
+  "published" : false,
+  "files" : {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/paymentin/46fe6540-0a2d-11f0-0a80-15c300188b75/files",
+      "type" : "files",
+      "mediaType" : "application/json",
+      "size" : 0,
+      "limit" : 1000,
+      "offset" : 0
+    }
+  },
+  "paymentPurpose" : "Оплата по сч/ф 1020 от 19.02.2025 по договору № Б\\Н от 16.12.2024 за Закупка поломоечных машин ТР ЮГ в т.ч. НДС 40.487,50",
+  "vatSum" : 0.0,
+  "operations" : [ {
+    "meta" : {
+      "href" : "https://api.moysklad.ru/api/remap/1.2/entity/demand/ebabbded-ee91-11ef-0a80-0179001a368a",
+      "metadataHref" : "https://api.moysklad.ru/api/remap/1.2/entity/demand/metadata",
+      "type" : "demand",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#demand/edit?id=ebabbded-ee91-11ef-0a80-0179001a368a"
+    },
+    "linkedSum" : 24292500
+  } ],
+  "incomingNumber" : "1250326MOY3#DS4062206",
+  "incomingDate" : "2025-03-26 00:00:00.000"
+}
