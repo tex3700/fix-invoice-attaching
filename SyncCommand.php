@@ -195,7 +195,7 @@ class SyncCommand {
         $invoiceNumberAndDate = self::extractNumbersAndDateFromString($paymentPurpose);
         if (is_null($invoiceNumberAndDate)) return false;
 
-        return $invoiceName == $invoiceNumberAndDate['number'] && $prepareDate == $invoiceNumberAndDate['row_date'];
+        return !($invoiceName == $invoiceNumberAndDate['number'] && $prepareDate == $invoiceNumberAndDate['row_date']);
     }
 
     private static function extractNumbersAndDateFromString(string $str): ?array
@@ -240,10 +240,8 @@ class SyncCommand {
 
         // 2. Проверка соответствия ключевых сущностей
         foreach ($entitiesToMatch as $entity) {
-            $invoiceHref = $invoice[$entity]['meta']['href'] ?? null;
-            $paymentHref = $payment[$entity]['meta']['href'] ?? null;
 
-            if (!TextHelper::isEqual($invoiceHref, $paymentHref)) {
+            if (!TextHelper::isEqual($invoice[$entity]['meta']['href'], $payment[$entity]['meta']['href'])) {
                 return true;
             }
         }
